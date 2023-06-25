@@ -1,0 +1,53 @@
+[2.797s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\src\joystick_publisher': PYTHONPATH=E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\prefix_override;E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\joystick_publisher build --build-base E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\build install --record E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\install.log --install-scripts $base/lib/joystick_publisher --single-version-externally-managed
+[3.453s] running egg_info
+[3.484s] writing ..\..\build\joystick_publisher\joystick_publisher.egg-info\PKG-INFO
+[3.484s] writing dependency_links to ..\..\build\joystick_publisher\joystick_publisher.egg-info\dependency_links.txt
+[3.594s] writing entry points to ..\..\build\joystick_publisher\joystick_publisher.egg-info\entry_points.txt
+[3.594s] writing requirements to ..\..\build\joystick_publisher\joystick_publisher.egg-info\requires.txt
+[3.594s] writing top-level names to ..\..\build\joystick_publisher\joystick_publisher.egg-info\top_level.txt
+[3.594s] reading manifest file '..\..\build\joystick_publisher\joystick_publisher.egg-info\SOURCES.txt'
+[3.594s] writing manifest file '..\..\build\joystick_publisher\joystick_publisher.egg-info\SOURCES.txt'
+[3.594s] running build
+[3.719s] running build_py
+[3.719s] copying joystick_publisher\joystick_publisher_node.py -> E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\build\lib\joystick_publisher
+[3.719s] running install
+[3.719s] running install_lib
+[3.719s] copying E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\build\lib\joystick_publisher\joystick_publisher_node.py -> E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher
+[3.719s] byte-compiling E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher\joystick_publisher_node.py to joystick_publisher_node.cpython-38.pyc
+[3.719s] running install_data
+[3.719s] running install_egg_info
+[3.719s] removing 'E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[3.734s] Copying ..\..\build\joystick_publisher\joystick_publisher.egg-info to E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher-0.0.0-py3.8.egg-info
+[3.734s] running install_scripts
+[4.109s] Installing joystick_publisher_node-script.py script to E:\Projects\AUV\DROPLAB\ros_ws\install\lib\joystick_publisher
+[4.109s] Installing joystick_publisher_node.exe script to E:\Projects\AUV\DROPLAB\ros_ws\install\lib\joystick_publisher
+[4.109s] writing list of installed files to 'E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\install.log'
+[4.109s] c:\python38\lib\site-packages\setuptools\dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.109s] !!
+[4.109s] 
+[4.109s]         ********************************************************************************
+[4.109s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.109s]         versions. Please use the underscore name 'script_dir' instead.
+[4.109s] 
+[4.125s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[4.125s]         or your builds will no longer be supported.
+[4.125s] 
+[4.125s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.125s]         ********************************************************************************
+[4.125s] 
+[4.125s] !!
+[4.344s]   opt = self.warn_dash_deprecation(opt, section)
+[4.359s] c:\python38\lib\site-packages\setuptools\_distutils\cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.359s] !!
+[4.359s] 
+[4.359s]         ********************************************************************************
+[4.359s]         Please avoid running ``setup.py`` directly.
+[4.359s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[4.359s]         other standards-based tools.
+[4.359s] 
+[4.359s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.359s]         ********************************************************************************
+[4.359s] 
+[4.359s] !!
+[4.359s]   self.initialize_options()
+[4.359s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\src\joystick_publisher' returned '0': PYTHONPATH=E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\prefix_override;E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\joystick_publisher build --build-base E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\build install --record E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\install.log --install-scripts $base/lib/joystick_publisher --single-version-externally-managed

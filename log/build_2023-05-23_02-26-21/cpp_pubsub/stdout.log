@@ -1,0 +1,23 @@
+-- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
+-- Found ament_cmake: 0.9.11 (E:/dev/ros2_foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/Python38/python.exe
+-- Found rclcpp: 2.4.2 (E:/dev/ros2_foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (E:/dev/ros2_foxy/share/rosidl_adapter/cmake)
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (E:/dev/ros2_foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 2.0.5 (E:/dev/ros2_foxy/share/std_msgs/cmake)
+-- Configuring done (5.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: E:/Projects/AUV/DROPLAB/ros_ws/build/cpp_pubsub
+MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Checking Build System
+  Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt
+  listener.vcxproj -> E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\Release\listener.exe
+  Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt
+publisher_member_function.obj : error LNK2019: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct sensor_msgs::msg::Joy_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$Joy_@V?$allocator@X@std@@@msg@sensor_msgs@@@rosidl_typesupport_cpp@@YAPEBUrosidl_message_type_support_t@@XZ) referenced in function "public: __cdecl rclcpp::Publisher<struct sensor_msgs::msg::Joy_<class std::allocator<void> >,class std::allocator<void> >::Publisher<struct sensor_msgs::msg::Joy_<class std::allocator<void> >,class std::allocator<void> >(class rclcpp::node_interfaces::NodeBaseInterface *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class rclcpp::QoS const &,struct rclcpp::PublisherOptionsWithAllocator<class std::allocator<void> > const &)" (??0?$Publisher@U?$Joy_@V?$allocator@X@std@@@msg@sensor_msgs@@V?$allocator@X@std@@@rclcpp@@QEAA@PEAVNodeBaseInterface@node_interfaces@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVQoS@1@AEBU?$PublisherOptionsWithAllocator@V?$allocator@X@std@@@1@@Z) [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\Release\talker.exe : fatal error LNK1120: 1 unresolved externals [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]

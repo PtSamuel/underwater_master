@@ -1,0 +1,4 @@
+Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install\cpp_pubsub
+Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install\cpp_pubsub
+Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release
+Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '1': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release

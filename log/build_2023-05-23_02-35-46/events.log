@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000000] (-) JobUnselected: {'identifier': 'joystick_publisher'}
+[0.000000] (-) EventReactorShutdown: {}

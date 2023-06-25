@@ -1,0 +1,45 @@
+[0.172s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install
+[0.219s] -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
+[0.250s] -- Found ament_cmake: 0.9.11 (E:/dev/ros2_foxy/share/ament_cmake/cmake)
+[0.312s] -- Using PYTHON_EXECUTABLE: C:/Python38/python.exe
+[0.812s] -- Found rclcpp: 2.4.2 (E:/dev/ros2_foxy/share/rclcpp/cmake)
+[0.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Found rosidl_adapter: 1.3.0 (E:/dev/ros2_foxy/share/rosidl_adapter/cmake)
+[1.281s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[1.406s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[5.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.265s] -- Found rmw_implementation_cmake: 1.0.4 (E:/dev/ros2_foxy/share/rmw_implementation_cmake/cmake)
+[5.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.375s] -- Found std_msgs: 2.0.5 (E:/dev/ros2_foxy/share/std_msgs/cmake)
+[5.531s] -- Configuring done (5.3s)
+[5.672s] -- Generating done (0.1s)
+[5.672s] -- Build files have been written to: E:/Projects/AUV/DROPLAB/ros_ws/build/cpp_pubsub
+[5.687s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install
+[5.687s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release
+[5.781s] MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+[5.828s] 
+[6.344s]   Checking Build System
+[6.484s]   Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt
+[6.594s]   listener.vcxproj -> E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\Release\listener.exe
+[6.656s]   Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt
+[6.750s]   publisher_member_function.cpp
+[10.547s]   talker.vcxproj -> E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\Release\talker.exe
+[10.640s]   Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt
+[10.719s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release
+[10.765s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE --install E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release
+[10.797s] -- Installing: E:/Projects/AUV/DROPLAB/ros_ws/install/lib/cpp_pubsub/talker.exe
+[10.797s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/lib/cpp_pubsub/listener.exe
+[10.797s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[10.797s] -- Installing: E:/Projects/AUV/DROPLAB/ros_ws/install/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[10.797s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/environment/ament_prefix_path.bat
+[10.797s] -- Installing: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[10.797s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/environment/path.bat
+[10.797s] -- Installing: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/environment/path.dsv
+[10.812s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/local_setup.bat
+[10.812s] -- Installing: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/local_setup.dsv
+[10.812s] -- Installing: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/package.dsv
+[10.812s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/ament_index/resource_index/packages/cpp_pubsub
+[10.812s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[10.812s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[10.812s] -- Up-to-date: E:/Projects/AUV/DROPLAB/ros_ws/install/share/cpp_pubsub/package.xml
+[10.812s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release

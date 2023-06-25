@@ -1,0 +1,2 @@
+[console_scripts]
+flir_subscriber_node = flir_subscriber.flir_subscriber_node:main

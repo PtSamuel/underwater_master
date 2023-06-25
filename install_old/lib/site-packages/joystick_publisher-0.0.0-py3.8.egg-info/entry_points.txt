@@ -1,0 +1,2 @@
+[console_scripts]
+joystick_publisher_node = joystick_publisher.joystick_publisher_node:main

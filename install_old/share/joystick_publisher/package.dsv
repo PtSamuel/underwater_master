@@ -1,0 +1,9 @@
+source;share\joystick_publisher\hook\cmake_prefix_path.ps1
+source;share\joystick_publisher\hook\cmake_prefix_path.bat
+source;share\joystick_publisher\hook\cmake_prefix_path.dsv
+source;share\joystick_publisher\hook\pythonpath.ps1
+source;share\joystick_publisher\hook\pythonpath.bat
+source;share\joystick_publisher\hook\pythonpath.dsv
+source;share\joystick_publisher\hook\ament_prefix_path.ps1
+source;share\joystick_publisher\hook\ament_prefix_path.bat
+source;share\joystick_publisher\hook\ament_prefix_path.dsv

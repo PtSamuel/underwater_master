@@ -1,0 +1,72 @@
+[0.485s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install
+[0.688s] -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
+[0.750s] -- Found ament_cmake: 0.9.11 (E:/dev/ros2_foxy/share/ament_cmake/cmake)
+[0.829s] -- Using PYTHON_EXECUTABLE: C:/Python38/python.exe
+[1.360s] -- Found rclcpp: 2.4.2 (E:/dev/ros2_foxy/share/rclcpp/cmake)
+[1.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.469s] -- Found rosidl_adapter: 1.3.0 (E:/dev/ros2_foxy/share/rosidl_adapter/cmake)
+[1.891s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[2.157s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[6.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.938s] -- Found rmw_implementation_cmake: 1.0.4 (E:/dev/ros2_foxy/share/rmw_implementation_cmake/cmake)
+[6.954s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.172s] -- Found std_msgs: 2.0.5 (E:/dev/ros2_foxy/share/std_msgs/cmake)
+[7.625s] -- Configuring done (7.0s)
+[7.954s] -- Generating done (0.3s)
+[7.954s] -- Build files have been written to: E:/Projects/AUV/DROPLAB/ros_ws/build/cpp_pubsub
+[8.000s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install
+[8.000s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release
+[8.250s] MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+[8.313s] 
+[8.844s]   Checking Build System
+[9.063s]   Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt
+[9.282s]   listener.vcxproj -> E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\Release\listener.exe
+[9.391s]   Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt
+[9.579s]   publisher_member_function.cpp
+[11.375s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(55,36): error C2039: 'Joy': is not a member of 'std_msgs::msg' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.375s] E:/dev/ros2_foxy/include\std_msgs/msg/detail/header__struct.hpp(30,11): message : see declaration of 'std_msgs::msg' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.375s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(55,39): error C2065: 'Joy': undeclared identifier [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.375s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(55,11): error C2923: 'rclcpp::Publisher': 'Joy' is not a valid template type argument for parameter 'MessageT' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.375s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(55,39): message : see declaration of 'Joy' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.375s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(55,11): error C2976: 'rclcpp::Publisher': too few template arguments [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.375s] E:/dev/ros2_foxy/include\rclcpp/publisher.hpp(51,17): message : see declaration of 'rclcpp::Publisher' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(55,42): error C2955: 'rclcpp::Publisher': use of class template requires template argument list [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:/dev/ros2_foxy/include\rclcpp/publisher.hpp(51,17): message : see declaration of 'rclcpp::Publisher' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(57,1): warning C4624: 'MinimalPublisher': destructor was implicitly defined as deleted [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(57,1): error C2282: 'MinimalPublisher::~MinimalPublisher' cannot override 'rclcpp::Node::~Node' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:/dev/ros2_foxy/include\rclcpp/node.hpp(104,12): message : 'rclcpp::Node::~Node' is not deleted [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(32,3): error C2512: 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>': no appropriate default constructor available [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:/dev/ros2_foxy/include\rclcpp/publisher.hpp(60,3): message : see declaration of 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(34,5): error C2678: binary '=': no operator found which takes a left-hand operand of type 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' (or there is no acceptable conversion) [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1593,17): message : could be 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::shared_ptr<_Ty> &&) noexcept' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1582,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(const std::shared_ptr<_Ty> &) noexcept' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1616,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::unique_ptr<_Ux,_Dx> &&)' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(34,5): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::unique_ptr<_Ux,_Dx> &&)': could not deduce template argument for 'std::unique_ptr<_Ux,_Dx> &&' from 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s]           with
+[11.391s]           [
+[11.391s]               MessageT=sensor_msgs::msg::Joy,
+[11.391s]               AllocatorT=std::allocator<void>
+[11.391s]           ]
+[11.391s] E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1606,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::auto_ptr<_Other> &&)' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(34,5): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::auto_ptr<_Other> &&)': could not deduce template argument for 'std::auto_ptr<_Other> &&' from 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s]           with
+[11.391s]           [
+[11.391s]               MessageT=sensor_msgs::msg::Joy,
+[11.391s]               AllocatorT=std::allocator<void>
+[11.391s]           ]
+[11.391s] E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1599,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::shared_ptr<_Ty2> &&) noexcept' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(34,1): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::shared_ptr<_Ty2> &&) noexcept': could not deduce template argument for '__formal' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1588,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(const std::shared_ptr<_Ty2> &) noexcept' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(34,1): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(const std::shared_ptr<_Ty2> &) noexcept': could not deduce template argument for '__formal' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(34,5): message : while trying to match the argument list '(std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>, std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>)' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.391s]           with
+[11.391s]           [
+[11.391s]               MessageT=sensor_msgs::msg::Joy,
+[11.391s]               AllocatorT=std::allocator<void>
+[11.391s]           ]
+[11.391s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(34,20): error C2582: 'operator =' function is unavailable in 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.407s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(51,5): error C2675: unary '->': 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' does not define this operator or a conversion to a type acceptable to the predefined operator [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.407s] E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1661,22): message : could be '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.407s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(51,1): message : '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const': could not deduce template argument for '__formal' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[11.407s] E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub\src\publisher_member_function.cpp(52,3): error C2143: syntax error: missing ';' before '}' [E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub\talker.vcxproj]
+[12.000s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '1': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub --config Release

@@ -1,0 +1,2 @@
+Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install -G Visual Studio 17 2022
+Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '1': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install -G Visual Studio 17 2022

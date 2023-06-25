@@ -1,0 +1,23 @@
+running egg_info
+writing ..\..\build\joystick_publisher\joystick_publisher.egg-info\PKG-INFO
+writing dependency_links to ..\..\build\joystick_publisher\joystick_publisher.egg-info\dependency_links.txt
+writing entry points to ..\..\build\joystick_publisher\joystick_publisher.egg-info\entry_points.txt
+writing requirements to ..\..\build\joystick_publisher\joystick_publisher.egg-info\requires.txt
+writing top-level names to ..\..\build\joystick_publisher\joystick_publisher.egg-info\top_level.txt
+reading manifest file '..\..\build\joystick_publisher\joystick_publisher.egg-info\SOURCES.txt'
+writing manifest file '..\..\build\joystick_publisher\joystick_publisher.egg-info\SOURCES.txt'
+running build
+running build_py
+copying joystick_publisher\joystick_publisher_node.py -> E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\build\lib\joystick_publisher
+running install
+running install_lib
+copying E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\build\lib\joystick_publisher\joystick_publisher_node.py -> E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher
+byte-compiling E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher\joystick_publisher_node.py to joystick_publisher_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing 'E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ..\..\build\joystick_publisher\joystick_publisher.egg-info to E:\Projects\AUV\DROPLAB\ros_ws\install\Lib\site-packages\joystick_publisher-0.0.0-py3.8.egg-info
+running install_scripts
+Installing joystick_publisher_node-script.py script to E:\Projects\AUV\DROPLAB\ros_ws\install\lib\joystick_publisher
+Installing joystick_publisher_node.exe script to E:\Projects\AUV\DROPLAB\ros_ws\install\lib\joystick_publisher
+writing list of installed files to 'E:\Projects\AUV\DROPLAB\ros_ws\build\joystick_publisher\install.log'

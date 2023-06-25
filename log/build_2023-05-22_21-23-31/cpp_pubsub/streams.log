@@ -1,0 +1,7 @@
+[0.188s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install -G Visual Studio 17 2022
+[0.203s] CMake Error at CMakeLists.txt:4:
+[0.203s]   Parse error.  Expected "(", got identifier with text "to".
+[0.203s] 
+[0.203s] 
+[0.203s] -- Configuring incomplete, errors occurred!
+[0.203s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\build\cpp_pubsub' returned '1': C:\Program Files\CMake\bin\cmake.EXE E:\Projects\AUV\DROPLAB\ros_ws\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=E:\Projects\AUV\DROPLAB\ros_ws\install -G Visual Studio 17 2022

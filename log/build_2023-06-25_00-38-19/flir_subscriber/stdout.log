@@ -1,0 +1,33 @@
+running egg_info
+creating ..\..\build\flir_subscriber\flir_subscriber.egg-info
+writing ..\..\build\flir_subscriber\flir_subscriber.egg-info\PKG-INFO
+writing dependency_links to ..\..\build\flir_subscriber\flir_subscriber.egg-info\dependency_links.txt
+writing entry points to ..\..\build\flir_subscriber\flir_subscriber.egg-info\entry_points.txt
+writing requirements to ..\..\build\flir_subscriber\flir_subscriber.egg-info\requires.txt
+writing top-level names to ..\..\build\flir_subscriber\flir_subscriber.egg-info\top_level.txt
+writing manifest file '..\..\build\flir_subscriber\flir_subscriber.egg-info\SOURCES.txt'
+reading manifest file '..\..\build\flir_subscriber\flir_subscriber.egg-info\SOURCES.txt'
+writing manifest file '..\..\build\flir_subscriber\flir_subscriber.egg-info\SOURCES.txt'
+running build
+running build_py
+creating E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build
+creating E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib
+creating E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib\flir_subscriber
+copying flir_subscriber\__init__.py -> E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib\flir_subscriber
+running install
+running install_lib
+creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber
+copying E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib\flir_subscriber\__init__.py -> E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber
+byte-compiling E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber\__init__.py to __init__.cpython-38.pyc
+running install_data
+creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index
+creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index\resource_index
+creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index\resource_index\packages
+copying resource\flir_subscriber -> E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index\resource_index\packages
+copying package.xml -> E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\flir_subscriber
+running install_egg_info
+Copying ..\..\build\flir_subscriber\flir_subscriber.egg-info to E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber-0.0.0-py3.8.egg-info
+running install_scripts
+Installing flir_subscriber_node-script.py script to E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\lib\flir_subscriber
+Installing flir_subscriber_node.exe script to E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\lib\flir_subscriber
+writing list of installed files to 'E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\install.log'

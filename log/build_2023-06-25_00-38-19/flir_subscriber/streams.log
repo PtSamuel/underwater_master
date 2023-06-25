@@ -1,0 +1,63 @@
+[3.265s] Invoking command in 'E:\Projects\AUV\DROPLAB\ros_ws\src\flir_subscriber': PYTHONPATH=E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\prefix_override;E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\flir_subscriber build --build-base E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build install --record E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\install.log --install-scripts $base/lib/flir_subscriber --single-version-externally-managed
+[4.000s] running egg_info
+[4.000s] creating ..\..\build\flir_subscriber\flir_subscriber.egg-info
+[4.031s] writing ..\..\build\flir_subscriber\flir_subscriber.egg-info\PKG-INFO
+[4.234s] writing dependency_links to ..\..\build\flir_subscriber\flir_subscriber.egg-info\dependency_links.txt
+[4.234s] writing entry points to ..\..\build\flir_subscriber\flir_subscriber.egg-info\entry_points.txt
+[4.234s] writing requirements to ..\..\build\flir_subscriber\flir_subscriber.egg-info\requires.txt
+[4.234s] writing top-level names to ..\..\build\flir_subscriber\flir_subscriber.egg-info\top_level.txt
+[4.234s] writing manifest file '..\..\build\flir_subscriber\flir_subscriber.egg-info\SOURCES.txt'
+[4.312s] reading manifest file '..\..\build\flir_subscriber\flir_subscriber.egg-info\SOURCES.txt'
+[4.312s] writing manifest file '..\..\build\flir_subscriber\flir_subscriber.egg-info\SOURCES.txt'
+[4.312s] running build
+[4.312s] running build_py
+[4.312s] creating E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build
+[4.312s] creating E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib
+[4.312s] creating E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib\flir_subscriber
+[4.312s] copying flir_subscriber\__init__.py -> E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib\flir_subscriber
+[4.328s] running install
+[4.328s] running install_lib
+[4.359s] creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber
+[4.359s] copying E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build\lib\flir_subscriber\__init__.py -> E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber
+[4.359s] byte-compiling E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber\__init__.py to __init__.cpython-38.pyc
+[4.359s] running install_data
+[4.406s] creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index
+[4.406s] creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index\resource_index
+[4.406s] creating E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index\resource_index\packages
+[4.406s] copying resource\flir_subscriber -> E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\ament_index\resource_index\packages
+[4.406s] copying package.xml -> E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\share\flir_subscriber
+[4.406s] running install_egg_info
+[4.469s] Copying ..\..\build\flir_subscriber\flir_subscriber.egg-info to E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages\flir_subscriber-0.0.0-py3.8.egg-info
+[4.703s] running install_scripts
+[5.094s] Installing flir_subscriber_node-script.py script to E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\lib\flir_subscriber
+[5.219s] Installing flir_subscriber_node.exe script to E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\lib\flir_subscriber
+[5.219s] writing list of installed files to 'E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\install.log'
+[5.328s] c:\python38\lib\site-packages\setuptools\dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.328s] !!
+[5.328s] 
+[5.328s]         ********************************************************************************
+[5.328s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.328s]         versions. Please use the underscore name 'script_dir' instead.
+[5.328s] 
+[5.328s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[5.328s]         or your builds will no longer be supported.
+[5.328s] 
+[5.328s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.328s]         ********************************************************************************
+[5.328s] 
+[5.328s] !!
+[5.328s]   opt = self.warn_dash_deprecation(opt, section)
+[5.328s] c:\python38\lib\site-packages\setuptools\_distutils\cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.328s] !!
+[5.328s] 
+[5.328s]         ********************************************************************************
+[5.328s]         Please avoid running ``setup.py`` directly.
+[5.328s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[5.328s]         other standards-based tools.
+[5.328s] 
+[5.328s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.328s]         ********************************************************************************
+[5.328s] 
+[5.328s] !!
+[5.328s]   self.initialize_options()
+[5.375s] Invoked command in 'E:\Projects\AUV\DROPLAB\ros_ws\src\flir_subscriber' returned '0': PYTHONPATH=E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\prefix_override;E:\Projects\AUV\DROPLAB\ros_ws\install\flir_subscriber\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\flir_subscriber build --build-base E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\build install --record E:\Projects\AUV\DROPLAB\ros_ws\build\flir_subscriber\install.log --install-scripts $base/lib/flir_subscriber --single-version-externally-managed

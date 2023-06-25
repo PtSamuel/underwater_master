@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (-) JobUnselected: {'identifier': 'joystick_pub_cpp'}
+[0.000000] (-) JobUnselected: {'identifier': 'joystick_pub_cpp'}
+[0.000000] (-) EventReactorShutdown: {}

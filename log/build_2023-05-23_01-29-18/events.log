@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000000] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.125000] (-) TimerEvent: {}
+[0.234000] (-) TimerEvent: {}
+[0.344000] (-) TimerEvent: {}
+[0.453000] (-) TimerEvent: {}
+[0.484000] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.484000] (cpp_pubsub) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=E:\\Projects\\AUV\\DROPLAB\\ros_ws\\install'], 'cwd': 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub', 'env': OrderedDict([('ADSK_3DSMAX_x64_2019', 'E:\\Program Files\\Autodesk\\3ds Max 2019\\'), ('ADSK_3DSMAX_x64_2020', 'E:\\Program Files\\Autodesk\\3ds Max 2020\\'), ('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\install;E:\\dev\\ros2_foxy'), ('ANSYS222_DIR', 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222\\ANSYS'), ('APPDATA', 'C:\\Users\\LorentzPie\\AppData\\Roaming'), ('AWP_LOCALE222', 'en-us'), ('AWP_ROOT222', 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222'), ('CADOE_LIBDIR222', 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222\\CommonFiles\\Language\\en-us'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133292593384215774'), ('CLion', 'E:\\Program Files\\JetBrains\\CLion 2022.2.1\\bin;'), ('CMAKE_PREFIX_PATH', 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\install;E:\\dev\\ros2_foxy'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\install\\;E:\\dev\\ros2_foxy\\'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'LAPTOP-P2S9LHVB'), ('ComSpec', 'C:\\WINDOWS\\system32\\cmd.exe'), ('CUDA_CACHE_MAXSIZE', '268435456'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('EFC_28564', '1'), ('FPS_BROWSER_APP_PROFILE_STRING', 'Internet Explorer'), ('FPS_BROWSER_USER_PROFILE_STRING', 'Default'), ('GOPATH', 'C:\\Users\\LorentzPie\\go'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\LorentzPie'), ('INTEL_DEV_REDIST', 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\'), ('LOCALAPPDATA', 'C:\\Users\\LorentzPie\\AppData\\Local'), ('LOGONSERVER', '\\\\LAPTOP-P2S9LHVB'), ('LSTC_LICENSE', 'Ansys'), ('MAYA_UI_LANGUAGE', 'en_US'), ('McamLicensingStartMenuFolder', 'Mastercam Licensing Utilities'), ('MIC_LD_LIBRARY_PATH', 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic'), ('NUMBER_OF_PROCESSORS', '16'), ('OneDrive', 'C:\\Users\\LorentzPie\\OneDrive'), ('OpenCV_DIR', 'E:\\Program Files\\opencv-3.4.6-vc16.VS2019\\opencv'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'E:\\dev\\ros2_foxy\\opt\\yaml_cpp_vendor\\bin;E:\\dev\\ros2_foxy\\opt\\rviz_ogre_vendor\\bin;E:\\dev\\ros2_foxy\\opt\\rviz_assimp_vendor\\bin;E:\\dev\\ros2_foxy\\opt\\libcurl_vendor\\bin;E:\\dev\\ros2_foxy\\Scripts;E:\\dev\\ros2_foxy\\bin;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\Program Files\\Python\\Python-3.9.6\\Scripts\\;E:\\Program Files\\Python\\Python-3.9.6\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Wolfram Research\\WolframScript\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\Program Files\\PuTTY\\;E:\\Program Files\\Go\\bin;C:\\Users\\LorentzPie;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\Program Files\\Git\\cmd;E:\\MinGW\\bin;E:\\Program Files\\MATLAB\\R2022a\\bin;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\ProgramData\\chocolatey\\bin;E:\\Program Files\\OpenSSL-Win64\\bin;E:\\Program Files\\opencv-3.4.6-vc16.VS2019\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\log4cxx\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\Program Files\\Graphviz\\bin;E:\\Projects\\cmusyllabi;E:\\anaconda3;E:\\anaconda3\\Library\\mingw-w64\\bin;E:\\anaconda3\\Library\\usr\\bin;E:\\anaconda3\\Library\\bin;E:\\anaconda3\\Scripts;E:\\anaconda3\\bin;E:\\anaconda3\\condabin;E:\\Program Files (x86)\\VMware\\VMware Workstation\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn;E:\\Program Files\\MATLAB\\R2021a\\runtime\\win64;E:\\Program Files\\MATLAB\\R2021a\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit;C:\\Program Files\\dotnet;C:\\Program File;E:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\LorentzPie\\.ebcli-virtual-env\\executables;E:\\Program Files\\JetBrains\\CLion 2022.2.1\\bin;;C:\\Program Files\\Mozilla Firefox\\Driver;C:\\Program Files\\Google\\Chrome\\Application;E:\\intelFPGA_lite\\18.1\\modelsim_ase\\win32aloem;E:\\Program Files\\texlive\\2023\\bin\\windows;C:\\Users\\LorentzPie\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Graphviz\\bin;'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'E:\\dev\\ros2_foxy\\lib\\pkgconfig'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD'), ('PROCESSOR_LEVEL', '25'), ('PROCESSOR_REVISION', '5000'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'E:\\dev\\ros2_foxy\\Lib\\site-packages'), ('P_SCHEMA', 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222\\AISOL\\CADIntegration\\Parasolid\\PSchema'), ('QSYS_ROOTDIR', 'E:\\intelFPGA_lite\\18.1\\quartus\\sopc_builder\\bin'), ('QUARTUS_ROOTDIR', 'E:\\intelFPGA_lite\\18.1\\quartus'), ('ROS_DISTRO', 'foxy'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SESSIONNAME', 'Console'), ('SOPC_KIT_NIOS2', 'E:\\intelFPGA_lite\\18.1\\nios2eds'), ('SW_SIM_HYDRA', 'C:\\Program Files\\Common Files\\SolidWorks Shared\\Simulation Worker Agent\\'), ('SW_SIM_MPIT', 'INTELMPI'), ('SW_SIM_TEMP', 'C:\\ProgramData\\SOLIDWORKS\\SW_net_sim_temp\\'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\WINDOWS'), ('TEMP', 'C:\\Users\\LORENT~1\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\LORENT~1\\AppData\\Local\\Temp'), ('USERDOMAIN', 'LAPTOP-P2S9LHVB'), ('USERDOMAIN_ROAMINGPROFILE', 'LAPTOP-P2S9LHVB'), ('USERNAME', 'ElectroBrandy'), ('USERPROFILE', 'C:\\Users\\LorentzPie'), ('VRAY_SEND_FEEDBACK', '0'), ('windir', 'C:\\WINDOWS')]), 'shell': False}
+[0.531000] (cpp_pubsub) StdoutLine: {'line': b'-- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.\n'}
+[0.547000] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (E:/dev/ros2_foxy/share/ament_cmake/cmake)\n'}
+[0.562000] (-) TimerEvent: {}
+[0.625000] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: C:/Python38/python.exe\n'}
+[0.672000] (-) TimerEvent: {}
+[0.781000] (-) TimerEvent: {}
+[0.891000] (-) TimerEvent: {}
+[1.016000] (-) TimerEvent: {}
+[1.094000] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (E:/dev/ros2_foxy/share/rclcpp/cmake)\n'}
+[1.125000] (-) TimerEvent: {}
+[1.156000] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.156000] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (E:/dev/ros2_foxy/share/rosidl_adapter/cmake)\n'}
+[1.281000] (-) TimerEvent: {}
+[1.391000] (-) TimerEvent: {}
+[1.500000] (-) TimerEvent: {}
+[1.562000] (cpp_pubsub) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c\n'}
+[1.578000] (cpp_pubsub) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp\n'}
+[1.609000] (-) TimerEvent: {}
+[1.719000] (-) TimerEvent: {}
+[1.828000] (-) TimerEvent: {}
+[1.937000] (-) TimerEvent: {}
+[2.047000] (-) TimerEvent: {}
+[2.156000] (-) TimerEvent: {}
+[2.266000] (-) TimerEvent: {}
+[2.406000] (-) TimerEvent: {}
+[2.516000] (-) TimerEvent: {}
+[2.625000] (-) TimerEvent: {}
+[2.937000] (-) TimerEvent: {}
+[3.062000] (-) TimerEvent: {}
+[3.172000] (-) TimerEvent: {}
+[3.281000] (-) TimerEvent: {}
+[3.391000] (-) TimerEvent: {}
+[3.500000] (-) TimerEvent: {}
+[3.625000] (-) TimerEvent: {}
+[3.734000] (-) TimerEvent: {}
+[3.844000] (-) TimerEvent: {}
+[3.953000] (-) TimerEvent: {}
+[4.109000] (-) TimerEvent: {}
+[4.219000] (-) TimerEvent: {}
+[4.328000] (-) TimerEvent: {}
+[4.437000] (-) TimerEvent: {}
+[4.547000] (-) TimerEvent: {}
+[4.656000] (-) TimerEvent: {}
+[4.766000] (-) TimerEvent: {}
+[4.875000] (-) TimerEvent: {}
+[4.984000] (-) TimerEvent: {}
+[5.094000] (-) TimerEvent: {}
+[5.203000] (-) TimerEvent: {}
+[5.312000] (-) TimerEvent: {}
+[5.422000] (-) TimerEvent: {}
+[5.562000] (-) TimerEvent: {}
+[5.641000] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.672000] (-) TimerEvent: {}
+[5.750000] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (E:/dev/ros2_foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.766000] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.781000] (-) TimerEvent: {}
+[5.891000] (-) TimerEvent: {}
+[5.953000] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (E:/dev/ros2_foxy/share/std_msgs/cmake)\n'}
+[6.000000] (-) TimerEvent: {}
+[6.109000] (-) TimerEvent: {}
+[6.219000] (-) TimerEvent: {}
+[6.234000] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (5.7s)\n'}
+[6.328000] (-) TimerEvent: {}
+[6.437000] (-) TimerEvent: {}
+[6.469000] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[6.484000] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: E:/Projects/AUV/DROPLAB/ros_ws/build/cpp_pubsub\n'}
+[6.500000] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.500000] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[6.500000] (cpp_pubsub) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--build', 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub', '--config', 'Release'], 'cwd': 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub', 'env': {'ADSK_3DSMAX_x64_2019': 'E:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ADSK_3DSMAX_x64_2020': 'E:\\Program Files\\Autodesk\\3ds Max 2020\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\install;E:\\dev\\ros2_foxy', 'ANSYS222_DIR': 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222\\ANSYS', 'APPDATA': 'C:\\Users\\LorentzPie\\AppData\\Roaming', 'AWP_LOCALE222': 'en-us', 'AWP_ROOT222': 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222', 'CADOE_LIBDIR222': 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222\\CommonFiles\\Language\\en-us', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133292593384215774', 'CLion': 'E:\\Program Files\\JetBrains\\CLion 2022.2.1\\bin;', 'CMAKE_PREFIX_PATH': 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\install;E:\\dev\\ros2_foxy', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'E:\\Projects\\AUV\\DROPLAB\\ros_ws\\install\\;E:\\dev\\ros2_foxy\\', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'LAPTOP-P2S9LHVB', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'CUDA_CACHE_MAXSIZE': '268435456', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'EFC_28564': '1', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'GOPATH': 'C:\\Users\\LorentzPie\\go', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\LorentzPie', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'LOCALAPPDATA': 'C:\\Users\\LorentzPie\\AppData\\Local', 'LOGONSERVER': '\\\\LAPTOP-P2S9LHVB', 'LSTC_LICENSE': 'Ansys', 'MAYA_UI_LANGUAGE': 'en_US', 'McamLicensingStartMenuFolder': 'Mastercam Licensing Utilities', 'MIC_LD_LIBRARY_PATH': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic', 'NUMBER_OF_PROCESSORS': '16', 'OneDrive': 'C:\\Users\\LorentzPie\\OneDrive', 'OpenCV_DIR': 'E:\\Program Files\\opencv-3.4.6-vc16.VS2019\\opencv', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'E:\\dev\\ros2_foxy\\opt\\yaml_cpp_vendor\\bin;E:\\dev\\ros2_foxy\\opt\\rviz_ogre_vendor\\bin;E:\\dev\\ros2_foxy\\opt\\rviz_assimp_vendor\\bin;E:\\dev\\ros2_foxy\\opt\\libcurl_vendor\\bin;E:\\dev\\ros2_foxy\\Scripts;E:\\dev\\ros2_foxy\\bin;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\Program Files\\Python\\Python-3.9.6\\Scripts\\;E:\\Program Files\\Python\\Python-3.9.6\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Wolfram Research\\WolframScript\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\Program Files\\PuTTY\\;E:\\Program Files\\Go\\bin;C:\\Users\\LorentzPie;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\Program Files\\Git\\cmd;E:\\MinGW\\bin;E:\\Program Files\\MATLAB\\R2022a\\bin;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\ProgramData\\chocolatey\\bin;E:\\Program Files\\OpenSSL-Win64\\bin;E:\\Program Files\\opencv-3.4.6-vc16.VS2019\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\log4cxx\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\Program Files\\Graphviz\\bin;E:\\Projects\\cmusyllabi;E:\\anaconda3;E:\\anaconda3\\Library\\mingw-w64\\bin;E:\\anaconda3\\Library\\usr\\bin;E:\\anaconda3\\Library\\bin;E:\\anaconda3\\Scripts;E:\\anaconda3\\bin;E:\\anaconda3\\condabin;E:\\Program Files (x86)\\VMware\\VMware Workstation\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn;E:\\Program Files\\MATLAB\\R2021a\\runtime\\win64;E:\\Program Files\\MATLAB\\R2021a\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit;C:\\Program Files\\dotnet;C:\\Program File;E:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\LorentzPie\\.ebcli-virtual-env\\executables;E:\\Program Files\\JetBrains\\CLion 2022.2.1\\bin;;C:\\Program Files\\Mozilla Firefox\\Driver;C:\\Program Files\\Google\\Chrome\\Application;E:\\intelFPGA_lite\\18.1\\modelsim_ase\\win32aloem;E:\\Program Files\\texlive\\2023\\bin\\windows;C:\\Users\\LorentzPie\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Graphviz\\bin;', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'PKG_CONFIG_PATH': 'E:\\dev\\ros2_foxy\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD', 'PROCESSOR_LEVEL': '25', 'PROCESSOR_REVISION': '5000', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'E:\\dev\\ros2_foxy\\Lib\\site-packages', 'P_SCHEMA': 'E:\\Program Files\\ANSYS Inc\\ANSYS Student\\v222\\AISOL\\CADIntegration\\Parasolid\\PSchema', 'QSYS_ROOTDIR': 'E:\\intelFPGA_lite\\18.1\\quartus\\sopc_builder\\bin', 'QUARTUS_ROOTDIR': 'E:\\intelFPGA_lite\\18.1\\quartus', 'ROS_DISTRO': 'foxy', 'ROS_LOCALHOST_ONLY': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SESSIONNAME': 'Console', 'SOPC_KIT_NIOS2': 'E:\\intelFPGA_lite\\18.1\\nios2eds', 'SW_SIM_HYDRA': 'C:\\Program Files\\Common Files\\SolidWorks Shared\\Simulation Worker Agent\\', 'SW_SIM_MPIT': 'INTELMPI', 'SW_SIM_TEMP': 'C:\\ProgramData\\SOLIDWORKS\\SW_net_sim_temp\\', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'TEMP': 'C:\\Users\\LORENT~1\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\LORENT~1\\AppData\\Local\\Temp', 'USERDOMAIN': 'LAPTOP-P2S9LHVB', 'USERDOMAIN_ROAMINGPROFILE': 'LAPTOP-P2S9LHVB', 'USERNAME': 'ElectroBrandy', 'USERPROFILE': 'C:\\Users\\LorentzPie', 'VRAY_SEND_FEEDBACK': '0', 'windir': 'C:\\WINDOWS', 'CL': '/MP'}, 'shell': False}
+[6.547000] (-) TimerEvent: {}
+[6.656000] (cpp_pubsub) StdoutLine: {'line': b'MSBuild version 17.5.1+f6fdcf537 for .NET Framework\r\n'}
+[6.656000] (-) TimerEvent: {}
+[6.719000] (cpp_pubsub) StdoutLine: {'line': b'\r\n'}
+[6.922000] (-) TimerEvent: {}
+[7.031000] (-) TimerEvent: {}
+[7.141000] (-) TimerEvent: {}
+[7.250000] (-) TimerEvent: {}
+[7.359000] (-) TimerEvent: {}
+[7.391000] (cpp_pubsub) StdoutLine: {'line': b'  Checking Build System\r\n'}
+[7.469000] (-) TimerEvent: {}
+[7.578000] (-) TimerEvent: {}
+[7.625000] (cpp_pubsub) StdoutLine: {'line': b'  Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt\r\n'}
+[7.687000] (-) TimerEvent: {}
+[7.797000] (-) TimerEvent: {}
+[7.812000] (cpp_pubsub) StdoutLine: {'line': b'  listener.vcxproj -> E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\Release\\listener.exe\r\n'}
+[7.906000] (-) TimerEvent: {}
+[8.016000] (-) TimerEvent: {}
+[8.125000] (cpp_pubsub) StdoutLine: {'line': b'  Building Custom Rule E:/Projects/AUV/DROPLAB/ros_ws/src/cpp_pubsub/CMakeLists.txt\r\n'}
+[8.125000] (-) TimerEvent: {}
+[8.234000] (-) TimerEvent: {}
+[8.266000] (cpp_pubsub) StdoutLine: {'line': b'  publisher_member_function.cpp\r\n'}
+[8.344000] (-) TimerEvent: {}
+[8.453000] (-) TimerEvent: {}
+[8.562000] (-) TimerEvent: {}
+[8.672000] (-) TimerEvent: {}
+[8.797000] (-) TimerEvent: {}
+[8.906000] (-) TimerEvent: {}
+[9.016000] (-) TimerEvent: {}
+[9.125000] (-) TimerEvent: {}
+[9.234000] (-) TimerEvent: {}
+[9.344000] (-) TimerEvent: {}
+[9.453000] (-) TimerEvent: {}
+[9.656000] (-) TimerEvent: {}
+[9.766000] (-) TimerEvent: {}
+[9.859000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(55,36): error C2039: 'Joy': is not a member of 'std_msgs::msg' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.859000] (cpp_pubsub) StdoutLine: {'line': b"E:/dev/ros2_foxy/include\\std_msgs/msg/detail/header__struct.hpp(30,11): message : see declaration of 'std_msgs::msg' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.859000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(55,39): error C2065: 'Joy': undeclared identifier [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (-) TimerEvent: {}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(55,11): error C2923: 'rclcpp::Publisher': 'Joy' is not a valid template type argument for parameter 'MessageT' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(55,39): message : see declaration of 'Joy' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(55,11): error C2976: 'rclcpp::Publisher': too few template arguments [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:/dev/ros2_foxy/include\\rclcpp/publisher.hpp(51,17): message : see declaration of 'rclcpp::Publisher' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(55,42): error C2955: 'rclcpp::Publisher': use of class template requires template argument list [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:/dev/ros2_foxy/include\\rclcpp/publisher.hpp(51,17): message : see declaration of 'rclcpp::Publisher' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(57,1): warning C4624: 'MinimalPublisher': destructor was implicitly defined as deleted [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(57,1): error C2282: 'MinimalPublisher::~MinimalPublisher' cannot override 'rclcpp::Node::~Node' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:/dev/ros2_foxy/include\\rclcpp/node.hpp(104,12): message : 'rclcpp::Node::~Node' is not deleted [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(32,3): error C2512: 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>': no appropriate default constructor available [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:/dev/ros2_foxy/include\\rclcpp/publisher.hpp(60,3): message : see declaration of 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(34,5): error C2678: binary '=': no operator found which takes a left-hand operand of type 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' (or there is no acceptable conversion) [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\memory(1593,17): message : could be 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::shared_ptr<_Ty> &&) noexcept' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\memory(1582,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(const std::shared_ptr<_Ty> &) noexcept' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\memory(1616,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::unique_ptr<_Ux,_Dx> &&)' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(34,5): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::unique_ptr<_Ux,_Dx> &&)': could not deduce template argument for 'std::unique_ptr<_Ux,_Dx> &&' from 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          with\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          [\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'              MessageT=sensor_msgs::msg::Joy,\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'              AllocatorT=std::allocator<void>\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          ]\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\memory(1606,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::auto_ptr<_Other> &&)' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(34,5): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::auto_ptr<_Other> &&)': could not deduce template argument for 'std::auto_ptr<_Other> &&' from 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          with\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          [\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'              MessageT=sensor_msgs::msg::Joy,\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'              AllocatorT=std::allocator<void>\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          ]\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\memory(1599,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::shared_ptr<_Ty2> &&) noexcept' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(34,1): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(std::shared_ptr<_Ty2> &&) noexcept': could not deduce template argument for '__formal' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\memory(1588,17): message : or       'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(const std::shared_ptr<_Ty2> &) noexcept' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(34,1): message : 'std::shared_ptr<_Ty> &std::shared_ptr<_Ty>::operator =(const std::shared_ptr<_Ty2> &) noexcept': could not deduce template argument for '__formal' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(34,5): message : while trying to match the argument list '(std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>, std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>)' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          with\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          [\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'              MessageT=sensor_msgs::msg::Joy,\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'              AllocatorT=std::allocator<void>\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b'          ]\r\n'}
+[9.875000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(34,20): error C2582: 'operator =' function is unavailable in 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.891000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(51,5): error C2675: unary '->': 'std::shared_ptr<rclcpp::Publisher<MessageT,AllocatorT>>' does not define this operator or a conversion to a type acceptable to the predefined operator [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.891000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\memory(1661,22): message : could be '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[9.891000] (cpp_pubsub) StdoutLine: {'line': b"E:\\Projects\\AUV\\DROPLAB\\ros_ws\\src\\cpp_pubsub\\src\\publisher_member_function.cpp(51,1): message : '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const': could not deduce template argument for '__formal' [E:\\Projects\\AUV\\DROPLAB\\ros_ws\\build\\cpp_pubsub\\talker.vcxproj]\r\n"}
+[10.000000] (-) TimerEvent: {}
+[10.109000] (-) TimerEvent: {}
+[10.219000] (-) TimerEvent: {}
+[10.328000] (-) TimerEvent: {}
+[10.437000] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[10.453000] (-) TimerEvent: {}
+[10.531000] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[10.531000] (-) EventReactorShutdown: {}
